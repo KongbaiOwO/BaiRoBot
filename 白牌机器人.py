@@ -1,4 +1,4 @@
-#本模块仅用于启动机器人，具体代码详见Robot文件夹下
+#本模块仅用于启动机器人，具体代码详见Robot文件夹下 
 import threading
 from os import system,popen
 from os.path import exists
