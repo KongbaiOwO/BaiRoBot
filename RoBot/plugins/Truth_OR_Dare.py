@@ -1,4 +1,4 @@
-#真心话大冒险插件
+#真心话大冒险插件 
 def loaddata(gid):
     from json import loads
     f = open(f'plugins/Truth_OR_Dare/{gid}/data.json', 'r')
