@@ -1,4 +1,4 @@
-#随机图片插件 需要外部库PIL(pip install Pillow)
+#随机图片插件 需要外部库PIL(pip install Pillow) 
 def run(platform,type,uid,gid,msg,BOTQQ):
     from io import BytesIO
     from requests import get
