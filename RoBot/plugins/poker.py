@@ -1,4 +1,4 @@
-#斗地主插件
+#斗地主插件 
 def loaddata(gid):
     from json import loads
     f = open(f'plugins/poker/{gid}/data.json', 'r')
