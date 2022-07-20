@@ -1,8 +1,8 @@
+#本模块仅用于启动机器人，具体代码详见Robot文件夹下
 import threading
 from os import system,popen
 from os.path import exists
 from configparser import ConfigParser
-import tkinter
 
 def start_cqhttp():
    system('cd go-cqhttp&&.\go-cqhttp.exe faststart')
@@ -49,13 +49,4 @@ pyyaml=未完成'''
     t1.start()
     t2.start()
 
-# def login():
-#     window=tkinter.Tk()
-#     window.title('登录')
-#     window.geometry('300x150')
-#     window.iconbitmap('../base/icon/icon-16X16.ico')
-#     tkinter.Label(window,text='账号',font=('黑体',14)).place(relx=0.2,y=20,relheight=0.2,width=100)
-#     window.mainloop()
-
-# login()
 start()
